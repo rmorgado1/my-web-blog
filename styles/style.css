@@ -1,0 +1,39 @@
+html {
+  background-color: #F1F3F4;
+  font-size: 20px; /* px means "pixels": the base font size is now 10 pixels high  */
+  font-family: "Roboto", sans-serif; /* this should be the rest of the output you got from Google fonts */
+}
+
+h1 {
+  font-size: 50px;
+  text-align: left;
+  margin: 0;
+  padding: 20px 0;
+}
+
+p, li {
+  font-size: 16px;    
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+body {
+  width: 500px;
+  margin: 20px auto;
+  background-color: #FFFFFF;
+  padding: 0px 20px 20px 20px;
+  border: 2px solid #DCE3E5;
+  vertical-align: center;
+}
+
+img {
+  display: block;
+  border-radius: 8px;
+  margin-left: 20px;
+}
+
+a#header {
+  display: block;
+  width: 200px;
+  background-image: url('http://www.polinize.com') no-repeat;
+}
